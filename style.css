@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "fira", monospace;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box {
+    height: 600px;
+    width: 480px;
+}
+fieldset {
+    width: 480px;
+    margin: auto;
+    border: 3px solid;
+    border-radius: 12px;
+    position: relative;
+}
+legend {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border: 3px black solid;
+    overflow: hidden;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.gray {
+    color: gray;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 25px 0 !important;
+    width: 100%;
+}
+.indented {
+    padding-left: 1ch;
+}
