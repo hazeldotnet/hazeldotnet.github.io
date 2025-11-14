@@ -1,0 +1,107 @@
+body {
+  background-color: #000;
+  background-image: url('images/Night2.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "fira", monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.background-layers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.terminal {
+  background: rgba(37, 36, 54, 0.85);
+  backdrop-filter: blur(15px);
+  border: 2px solid #877088;
+  border-radius: 8px;
+  padding: 20px 30px;
+  max-width: 700px;
+  width: 90%;
+  user-select: none;
+  max-height: 811px;
+  overflow-y: auto;
+}
+
+.hyfetch {
+  display: flex;
+  align-items: top;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.logo img {
+  padding-top: 2.5rem;
+  border-radius: 0.25rem;
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.white {
+  color: #D6D9EA;
+}
+
+.grey {
+  color: #D6D9E9;
+}
+
+.mint {
+  color: #A8E3D0;
+}
+
+.pink {
+  color: #F6C9DF;
+}
+
+.blue {
+  color: #9EBBED;
+}
+
+.yellow {
+  color: #F9E3B1;
+}
+
+.green {
+  color: #B7E4A6;
+}
+
+.red {
+  color: #F59DAC;
+}
+
+a {
+  color: #A8E3D0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}

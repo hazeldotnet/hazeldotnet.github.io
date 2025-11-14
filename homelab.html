@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guest@hazelnet:~$</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="terminal">
+        <div class="hyfetch">
+            <div class="logo">
+                <img src="images/futaba1.webp" alt="Futaba Sakura">
+            </div>                   
+            <pre><span class="ascii">
+  <span class="blue">●</span> Apollo    | Network Stack
+┌──────────────────────────────────────────────────────────┐
+  <span   class="mint">● Chassis</span>   : Dell PowerEdge R210 II
+  <span    class="red">● OS</span>        : Proxmox VE
+  <span class="yellow">● CPU</span>       : E3-1260L
+  <span class="expandable-text" onclick="toggleExpand(this)" style="cursor:pointer;"><span class="pink">● Services</span>  : OPNsense (Routing / Firewall)...⤵<span class="expandable-content" style="display:none;">
+              : Pi-hole (DHCP / DNS)
+              : NGINX (Reverse Proxy)
+              : Wireguard (VPN)
+              : Prometheus (Monitoring)</span></span>
+  <span  class="green">● Status</span>    : <span class="red">IN PROGRESS</span>
+└──────────────────────────────────────────────────────────┘
+
+  <span class="blue">●</span> Artemis   | Main Host
+┌──────────────────────────────────────────────────────────┐
+  <span   class="mint">● Chassis</span>   : Corsair 460X
+  <span    class="red">● OS</span>        : Proxmox VE
+  <span class="yellow">● CPU</span>       : i5-8500
+  <span class="yellow">● GPU</span>       : 1060 GB
+  <span class="yellow">● RAM</span>       : 16GB DDR4
+  <span class="expandable-text" onclick="toggleExpand(this)" style="cursor:pointer;"><span class="pink">+ Services</span>  : Jellyfin...⤵<span class="expandable-content" style="display:none;">
+              : Docker
+              : Minecraft Server (2x)
+              : Rust Server
+              : Radarr / Sonarr / Lidarr</span></span>
+  <span  class="green">● Status</span>    : <span class="green">ONLINE</span>
+└──────────────────────────────────────────────────────────┘
+
+  <span class="blue">●</span> Saturn    | JBOD
+┌──────────────────────────────────────────────────────────┐
+  <span   class="mint">● Chassis</span>   : Cooler Master Stacker 830
+  <span    class="red">● OS</span>        : Truenas (Bare metal)
+  <span class="yellow">● Capacity</span>  : TBD
+  <span  class="green">● Status</span>    : <span class="red">IN PROGRESS</span>
+└──────────────────────────────────────────────────────────┘
+
+  <span class="blue">●</span> Miscellaneous Hardware
+┌──────────────────────────────────────────────────────────┐
+  <span class="mint">● Hermes</span>    : Mikrotik 24 Port GbE Switch
+  <span class="pink">● Eris</span>      : 2011 T500 Lenovo ThinkPad
+└──────────────────────────────────────────────────────────┘
+  <span class="white">●</span> <span class="grey">●</span> <span class="mint">●</span> <span class="pink">●</span> <span class="blue">●</span> <span class="yellow">●</span> <span class="green">●</span> <span class="red">●</span></span>
+ <span style="font-style:italic;font-size: smaller;color:grey;">Click on Services ⤵ to expand...</span>
+            </pre>
+        </div>
+        <div class="listing">
+            <pre>
+  <span class="green">> ls</span> -l ~
+  <span class="underline">Permissions</span>  <span class="underline">User</span>   <span class="underline">Group</span>  <span class="underline">Size</span>  <span class="underline">Name</span>
+  drwxr-xr-x   hazel  dev    4096  <a href="#">📂 Homelab</a>
+  drwxr-xr-x   hazel  dev    9048  <a href="/index">📂 Index</a>
+  drwxr-x---   hazel  todo      0  <span class="red">📁 Projects</span>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
